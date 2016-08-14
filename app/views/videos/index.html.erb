@@ -1,0 +1,12 @@
+<h1>Videos#index</h1>
+<div class="videos">
+  <% @videos.each do |video| %>
+  <div class="video-item">
+    <%= image_tag video.first_thumbnail_url %>
+    <p>
+      <%= video.title %>
+    </p>
+  </div>
+
+  <% end %>
+</div>

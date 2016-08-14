@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://login.zype.com/oauth/token/?client_id=***REMOVED***&client_secret=***REMOVED***&grant_type=password&password=password&username=test@test.com
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - no-store
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 15 Aug 2016 02:16:18 GMT
+      Etag:
+      - '"d933bcd71882b3097034774e7fab6c4d"'
+      Pragma:
+      - no-cache
+      Server:
+      - nginx/1.8.1
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - fe2c1b0e-9030-4a4c-8c0f-256779300764
+      X-Runtime:
+      - '0.122157'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '251'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"access_token":"c9ca574ef809068b5f304fdfad1cef785f01796085070eec8672a3a253878e3b","token_type":"bearer","expires_in":604800,"refresh_token":"0ad10f45b012f358b55c3f854b5aadd1c0f425035e0c212888f60a74250ff800","scope":"consumer","created_at":1471227378}'
+    http_version: 
+  recorded_at: Mon, 15 Aug 2016 02:16:18 GMT
+recorded_with: VCR 3.0.3

@@ -46,5 +46,19 @@ describe 'Visiting a video details page', type: :feature do
     it 'invites the user to log in' do
       expect(page.text).to include('Please log in or subscribe to watch this video.')
     end
+
+    it 'allows you to log in and watch the video' do
+      click_link 'Log in'
+      expect(page.current_path).to eq(new_session_path)
+
+      fill_in 'Username', with: 'test@test.com'
+      fill_in 'Password', with: 'password'
+      VCR.use_cassette 'zype_session' do
+        click_button 'Log in'
+      end
+
+      expect(page.current_path).to eq(video_path(video))
+      expect(find('.video-player')).to be_present
+    end
   end
 end

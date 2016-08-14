@@ -1,9 +1,18 @@
 <h1><%= @video.title %></h1>
 
 <% if @video.subscription_required %>
-  <p>
-    Please log in or subscribe to watch this video.
-  </p>
+  <% if access_token.present? %>
+    <div class="video-player">
+      <div id="zype_<%= @video.zype_id %>"></div><script src="https://player.zype.com/embed/<%= @video.zype_id %>.js?autoplay=true&access_token=<%=access_token%>" type="text/javascript"></script>
+    </div>
+  <% else %>
+    <p>
+      Please log in or subscribe to watch this video.
+    </p>
+    <p>
+      <%= link_to 'Log in', new_session_path %>
+    </p>
+  <% end %>
 <% else %>
   <div class="video-player">
     <div id="zype_<%= @video.zype_id %>"></div><script src="https://player.zype.com/embed/<%= @video.zype_id %>.js?autoplay=true&app_key=<%=ZYPE_APP_KEY %>" type="text/javascript"></script>

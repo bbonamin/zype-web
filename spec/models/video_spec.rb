@@ -2,11 +2,12 @@
 require 'rails_helper'
 
 RSpec.describe Video, type: :model do
-  describe '.refresh_all!' do
-    it 'creates as videos as hashes in VideoGateway#all' do
-      VCR.use_cassette 'video_gateway_all', allow_playback_repeats: true do
+  describe '.create_or_update_from_page!' do
+    it 'creates videos as hashes in VideoGateway#all' do
+      VCR.use_cassette 'video_gateway_page1', allow_playback_repeats: true do
         video_gateway = VideoGateway.new
-        expect { Video.refresh_all! }.to change(Video, :count).from(0).to(video_gateway.all.size)
+        page = video_gateway.fetch
+        expect { Video.create_or_update_from_page!(page) }.to change(Video, :count).from(0).to(10)
       end
     end
   end

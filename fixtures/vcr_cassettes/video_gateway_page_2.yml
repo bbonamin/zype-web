@@ -1,0 +1,198 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.zype.com/videos?app_key=***REMOVED***&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Max-Age:
+      - '1728000'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 14 Aug 2016 21:08:37 GMT
+      Etag:
+      - '"5841267c64e72926211ed99c6fdcc76c"'
+      Server:
+      - nginx/1.8.1
+      Set-Cookie:
+      - request_method=GET; path=/
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 14962ec2-ec2c-4c78-9976-a4e5dddfa2f7
+      X-Runtime:
+      - '0.042455'
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '26811'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"response":[{"_id":"56a7b83169702d2f8336d9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.624-05:00","description":"Doug
+        (Ryan Gosling) and Gina (Vanessa Bayer) make everyone at the neighborhood
+        holiday party uncomfortable when they demand to meet the real Santa.\n\nSubscribe
+        to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload the SNL
+        App for free: http://www.nbc.com/saturday-night-live/app\n\nFor more SNL 40th
+        Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on Hulu Plus: http://www.hulu.com/saturday-night-live\n\nGet
+        more SNL: http://www.nbc.com/saturday-night-live\nFull Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike
+        SNL: https://www.facebook.com/snl\nFollow SNL: https://twitter.com/nbcsnl\nSNL
+        Tumblr: http://nbcsnl.tumblr.com/\nSNL Instagram: http://instagram.com/nbcsnl
+        \nSNL Google+: https://plus.google.com/+SaturdayNightLive/ \nSNL Pinterest:
+        http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":301,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2015-12-06T04:50:06.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":3,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"Santa
+        Baby - SNL","updated_at":"2016-08-09T05:23:08.708-04:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/CkrpvCs-kfE/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/CkrpvCs-kfE/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/CkrpvCs-kfE/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/CkrpvCs-kfE/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/CkrpvCs-kfE/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"CkrpvCs-kfE","short_description":"Doug
+        (Ryan Gosling) and Gina (Vanessa Bayer) make everyone at the neighborhood
+        holiday party uncomfortable when they demand to meet the real Santa.\n\nSubscribe
+        to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload the SNL
+        App for free: ..."},{"_id":"56a7b83169702d2f832dd9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.477-05:00","description":"Host
+        Finn Raynal-Beads (Adam Driver) and his French counterparts, Joelle LaRue
+        (Cecily Strong) and Noelle LeSoup (Kate McKinnon), take very different approaches
+        to narrating cat videos.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload
+        the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor more
+        SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on Hulu
+        Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":276,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-17T04:09:25.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":2,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"America''s
+        Funniest Cats - SNL","updated_at":"2016-08-08T19:54:50.585-04:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/AH4yRRTgcE8/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/AH4yRRTgcE8/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/AH4yRRTgcE8/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/AH4yRRTgcE8/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/AH4yRRTgcE8/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"AH4yRRTgcE8","short_description":"Host
+        Finn Raynal-Beads (Adam Driver) and his French counterparts, Joelle LaRue
+        (Cecily Strong) and Noelle LeSoup (Kate McKinnon), take very different approaches
+        to narrating cat videos.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/2..."},{"_id":"56a7b83169702d2f8330d9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.527-05:00","description":"Chris
+        Hemsworth hosts Saturday Night Live on December 12, 2015 with musical guest
+        Chance The Rapper.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload
+        the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor more
+        SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on Hulu
+        Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":130,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2015-12-08T21:05:35.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":4,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"SNL
+        Host Chris Hemsworth Tells Leslie Jones About Australia''s Santa","updated_at":"2016-08-10T21:17:29.109-04:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/5HL7heE-bOo/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/5HL7heE-bOo/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/5HL7heE-bOo/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/5HL7heE-bOo/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/5HL7heE-bOo/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"5HL7heE-bOo","short_description":"Chris
+        Hemsworth hosts Saturday Night Live on December 12, 2015 with musical guest
+        Chance The Rapper.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload
+        the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor..."},{"_id":"56a7b83169702d2f8327d9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.379-05:00","description":"After
+        their parents (Vanessa Bayer, Adam Driver) tell them to go to bed in their
+        Golden Globes acceptance speech, two kids (Kyle Mooney, Kate McKinnon) spend
+        the night worrying when they''ll return.\n\nSubscribe to the SNL channel for
+        more clips: http://goo.gl/24RRTv\n\nDownload the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor
+        more SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on
+        Hulu Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":254,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-17T04:41:47.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":1,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"Golden
+        Globes - SNL","updated_at":"2016-02-27T23:19:04.153-05:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/j7thr3uvXCo/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/j7thr3uvXCo/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/j7thr3uvXCo/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/j7thr3uvXCo/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/j7thr3uvXCo/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"j7thr3uvXCo","short_description":"After
+        their parents (Vanessa Bayer, Adam Driver) tell them to go to bed in their
+        Golden Globes acceptance speech, two kids (Kyle Mooney, Kate McKinnon) spend
+        the night worrying when they''ll return.\n\nSubscribe to the SNL channel for
+        more clips: htt..."},{"_id":"56a7b83169702d2f832ad9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.428-05:00","description":"A
+        young girl (Aidy Bryant) confuses a porn shoot starring Dr. Rockhard (Adam
+        Driver) for an actual doctor''s office.\n\nSubscribe to the SNL channel for
+        more clips: http://goo.gl/24RRTv\n\nDownload the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor
+        more SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on
+        Hulu Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":291,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-17T04:38:33.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":2,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"Porn
+        Doctor - SNL","updated_at":"2016-02-27T15:29:03.764-05:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/F8TR34viNo0/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/F8TR34viNo0/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/F8TR34viNo0/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/F8TR34viNo0/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/F8TR34viNo0/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"F8TR34viNo0","short_description":"A
+        young girl (Aidy Bryant) confuses a porn shoot starring Dr. Rockhard (Adam
+        Driver) for an actual doctor''s office.\n\nSubscribe to the SNL channel for
+        more clips: http://goo.gl/24RRTv\n\nDownload the SNL App for free: http://www.nbc.com/saturday-nigh..."},{"_id":"56a7b83069702d2f8309d9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:20.712-05:00","description":"When
+        the popular kids (Beck Bennett, Vanessa Bayer, Kate McKinnon, Sasheer Zamata,
+        Jon Rudnitsky) try to play a trick on the new girl (Ronda Rousey), she turns
+        the tables on them.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload
+        the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor more
+        SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on Hulu
+        Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":260,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-24T03:59:03.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":7,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"Love
+        Struck - SNL","updated_at":"2016-08-08T03:03:44.626-04:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/jhz862KOstA/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/jhz862KOstA/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/jhz862KOstA/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/jhz862KOstA/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/jhz862KOstA/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"jhz862KOstA","short_description":"When
+        the popular kids (Beck Bennett, Vanessa Bayer, Kate McKinnon, Sasheer Zamata,
+        Jon Rudnitsky) try to play a trick on the new girl (Ronda Rousey), she turns
+        the tables on them.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n..."},{"_id":"56a7b83069702d2f830cd9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:20.760-05:00","description":"Sarah
+        Palin (Tina Fey) endorses Donald Trump (Darrell Hammond) for president at
+        an Iowa campaign stop.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload
+        the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor more
+        SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on Hulu
+        Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":310,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-24T04:00:53.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":5,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"Palin
+        Endorsement Cold Open - SNL","updated_at":"2016-08-10T11:09:14.092-04:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/0pinZNYxQeo/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/0pinZNYxQeo/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/0pinZNYxQeo/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/0pinZNYxQeo/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/0pinZNYxQeo/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"0pinZNYxQeo","short_description":"Sarah
+        Palin (Tina Fey) endorses Donald Trump (Darrell Hammond) for president at
+        an Iowa campaign stop.\n\nSubscribe to the SNL channel for more clips: http://goo.gl/24RRTv\n\nDownload
+        the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nF..."},{"_id":"56a7b83169702d2f8321d9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.280-05:00","description":"Ronda
+        Rousey hosts Saturday Night Live on January 23, 2016 with musical guest Selena
+        Gomez.\n\nGet more SNL on Hulu Plus: http://www.hulu.com/saturday-night-live\n\nGet
+        more SNL: http://www.nbc.com/saturday-night-live\nFull Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike
+        SNL: https://www.facebook.com/snl\nFollow SNL: https://twitter.com/nbcsnl\nSNL
+        Tumblr: http://nbcsnl.tumblr.com/\nSNL Instagram: http://instagram.com/nbcsnl
+        \nSNL Google+: https://plus.google.com/+SaturdayNightLive/ \nSNL Pinterest:
+        http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":115,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-20T16:40:51.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":3,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"SNL
+        Host Ronda Rousey Lets Beck \"The Wreck\" Bennett Try His Noggin Lock","updated_at":"2016-02-29T14:47:25.556-05:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/G5_4wcVyGUc/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/G5_4wcVyGUc/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/G5_4wcVyGUc/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/G5_4wcVyGUc/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/G5_4wcVyGUc/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"G5_4wcVyGUc","short_description":"Ronda
+        Rousey hosts Saturday Night Live on January 23, 2016 with musical guest Selena
+        Gomez.\n\nGet more SNL on Hulu Plus: http://www.hulu.com/saturday-night-live\n\nGet
+        more SNL: http://www.nbc.com/saturday-night-live\nFull Episodes: http://www.nbc.com..."},{"_id":"56a7b83169702d2f8324d9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.329-05:00","description":"Take
+        a look inside Studio 8H on January 15, 2016, as the cast and crew prepares
+        for the Adam Driver show.\n\nSubscribe to the SNL channel for more clips:
+        http://goo.gl/24RRTv\n\nDownload the SNL App for free: http://www.nbc.com/saturday-night-live/app\n\nFor
+        more SNL 40th Anniversary Special: http://goo.gl/gLyPTc\n\nGet more SNL on
+        Hulu Plus: http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":60,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-19T19:12:19.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":8,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"SNL
+        Time-Lapse: Adam Driver Rehearsals","updated_at":"2016-08-09T13:14:46.962-04:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/LrFZkRjc4gk/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/LrFZkRjc4gk/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/LrFZkRjc4gk/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/LrFZkRjc4gk/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/LrFZkRjc4gk/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"LrFZkRjc4gk","short_description":"Take
+        a look inside Studio 8H on January 15, 2016, as the cast and crew prepares
+        for the Adam Driver show.\n\nSubscribe to the SNL channel for more clips:
+        http://goo.gl/24RRTv\n\nDownload the SNL App for free: http://www.nbc.com/saturday-night-live/app..."},{"_id":"56a7b83069702d2f831bd9b7","active":true,"categories":[{"title":"YouTube
+        Channel","value":["Saturday Night Live"]}],"country":null,"created_at":"2016-01-26T13:17:21.003-05:00","description":"Bonus
+        footage from \"Undercover Boss: Starkiller Base,\" where Kylo Ren (Adam Driver)
+        goes undercover as Matt, a radar technician.\n\nGet more SNL on Hulu Plus:
+        http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-live\nFull
+        Episodes: http://www.nbc.com/saturday-night-live/video\n\nLike SNL: https://www.facebook.com/snl\nFollow
+        SNL: https://twitter.com/nbcsnl\nSNL Tumblr: http://nbcsnl.tumblr.com/\nSNL
+        Instagram: http://instagram.com/nbcsnl \nSNL Google+: https://plus.google.com/+SaturdayNightLive/
+        \nSNL Pinterest: http://www.pinterest.com/nbcsnl/","disable_at":null,"discovery_url":null,"duration":215,"enable_at":null,"episode":null,"featured":false,"foreign_id":null,"friendly_title":null,"keywords":[],"mature_content":false,"on_air":false,"ott_description":null,"pass_required":false,"preview_ids":[],"published_at":"2016-01-22T08:00:03.000-05:00","purchase_price":null,"purchase_required":false,"rating":0.0,"related_playlist_ids":[],"rental_duration":null,"rental_price":null,"rental_required":false,"request_count":2,"season":null,"site_id":"56a7b4a369702d1927000000","source_id":null,"status":"created","subscription_required":false,"title":"Undercover
+        Boss: Starkiller Base Behind The Scenes","updated_at":"2016-02-28T09:49:49.025-05:00","zobject_ids":[],"crunchyroll_id":null,"hulu_id":null,"mrss_id":null,"kaltura_id":null,"thumbnails":[{"aspect_ratio":1.33,"height":90,"name":null,"url":"https://i.ytimg.com/vi/gJ3mGQAFS6I/default.jpg","width":120},{"aspect_ratio":1.78,"height":180,"name":null,"url":"https://i.ytimg.com/vi/gJ3mGQAFS6I/mqdefault.jpg","width":320},{"aspect_ratio":1.33,"height":360,"name":null,"url":"https://i.ytimg.com/vi/gJ3mGQAFS6I/hqdefault.jpg","width":480},{"aspect_ratio":1.33,"height":480,"name":null,"url":"https://i.ytimg.com/vi/gJ3mGQAFS6I/sddefault.jpg","width":640},{"aspect_ratio":1.78,"height":720,"name":null,"url":"https://i.ytimg.com/vi/gJ3mGQAFS6I/maxresdefault.jpg","width":1280}],"transcoded":false,"vimeo_id":null,"youtube_id":"gJ3mGQAFS6I","short_description":"Bonus
+        footage from \"Undercover Boss: Starkiller Base,\" where Kylo Ren (Adam Driver)
+        goes undercover as Matt, a radar technician.\n\nGet more SNL on Hulu Plus:
+        http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-l..."}],"pagination":{"current":2,"previous":1,"next":3,"per_page":10,"pages":25}}'
+    http_version: 
+  recorded_at: Sun, 14 Aug 2016 21:08:37 GMT
+recorded_with: VCR 3.0.3

@@ -1,8 +1,14 @@
+# frozen_string_literal: true
 require 'rails_helper'
 
 describe 'Visiting the video list', type: :feature do
   before :each do
-    VCR.use_cassette('video_gateway_all') { Video.refresh_all! }
+    VCR.use_cassette('video_gateway_page1') do
+      video_gateway = VideoGateway.new
+      page = video_gateway.fetch
+      Video.create_or_update_from_page!(page)
+    end
+
     visit videos_url
   end
 

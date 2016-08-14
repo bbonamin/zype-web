@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.zype.com/videos?app_key=***REMOVED***
+    uri: https://api.zype.com/videos?app_key=***REMOVED***&page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 14 Aug 2016 19:00:25 GMT
+      - Sun, 14 Aug 2016 21:20:52 GMT
       Etag:
       - '"e5e2da5d67676561acf7f373f0ee3418"'
       Server:
@@ -39,13 +39,13 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       X-Request-Id:
-      - dda216ba-4246-45d9-b5fe-57e9f34f022a
+      - 95dc4c80-43ee-40b6-b8a8-62681cbad09b
       X-Runtime:
-      - '0.059734'
+      - '0.052374'
       X-Xss-Protection:
       - 1; mode=block
-      Content-Length:
-      - '26524'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
     body:
@@ -642,5 +642,5 @@ http_interactions:
         eyJjdXJyZW50IjoxLCJwcmV2aW91cyI6bnVsbCwibmV4dCI6MiwicGVyX3Bh
         Z2UiOjEwLCJwYWdlcyI6MjV9fQ==
     http_version: 
-  recorded_at: Sun, 14 Aug 2016 19:00:25 GMT
+  recorded_at: Sun, 14 Aug 2016 21:20:53 GMT
 recorded_with: VCR 3.0.3

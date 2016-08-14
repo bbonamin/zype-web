@@ -1,24 +1,8 @@
-# README
+# Zype Web
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Zype web application
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Dev requirements
+- Ruby 2.3.1
+- PhantomJS 1.8.1+ (`brew install phantomjs`)
+- Any recent NodeJS version for assets compilation

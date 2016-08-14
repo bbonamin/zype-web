@@ -1,12 +1,13 @@
 <h1>Videos#index</h1>
-<div class="videos">
+<section class="videos">
   <% @videos.each do |video| %>
-  <div class="video-item">
-    <%= image_tag video.first_thumbnail_url %>
-    <p>
-      <%= video.title %>
-    </p>
-  </div>
-
+    <%= link_to video_path(video), class: 'video-item-link' do %>
+      <div class="video-item">
+        <%= image_tag video.first_thumbnail_url %>
+        <p>
+          <%= video.title %>
+        </p>
+      </div>
+    <% end %>
   <% end %>
 </div>

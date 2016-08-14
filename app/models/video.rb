@@ -24,6 +24,7 @@ class Video < ApplicationRecord
     video = find_or_initialize_by(zype_id: video_hash.fetch('_id'))
     video.attributes = {
       title: video_hash.fetch('title'),
+      subscription_required: video_hash.fetch('subscription_required'),
       raw_payload: video_hash
     }
     video.save!

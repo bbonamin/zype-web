@@ -1,1 +1,11 @@
 <h1><%= @video.title %></h1>
+
+<% if @video.subscription_required %>
+  <p>
+    Please log in or subscribe to watch this video.
+  </p>
+<% else %>
+  <div class="video-player">
+    <div id="zype_<%= @video.zype_id %>"></div><script src="https://player.zype.com/embed/<%= @video.zype_id %>.js?autoplay=true&app_key=<%=ZYPE_APP_KEY %>" type="text/javascript"></script>
+  </div>
+<% end %>

@@ -2,46 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.zype.com/videos?app_key=***REMOVED***
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 301
-      message: Moved Permanently
-    headers:
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Max-Age:
-      - '1728000'
-      Content-Type:
-      - text/html
-      Date:
-      - Sun, 14 Aug 2016 16:54:21 GMT
-      Location:
-      - https://api.zype.com/videos?app_key=***REMOVED***
-      Server:
-      - nginx/1.8.1
-      Content-Length:
-      - '184'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body
-        bgcolor=\"white\">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx/1.8.1</center>\r\n</body>\r\n</html>\r\n"
-    http_version: 
-  recorded_at: Sun, 14 Aug 2016 16:54:22 GMT
-- request:
-    method: get
     uri: https://api.zype.com/videos?app_key=***REMOVED***
     body:
       encoding: US-ASCII
@@ -67,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sun, 14 Aug 2016 16:54:22 GMT
+      - Sun, 14 Aug 2016 19:00:25 GMT
       Etag:
       - '"e5e2da5d67676561acf7f373f0ee3418"'
       Server:
@@ -79,9 +39,9 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       X-Request-Id:
-      - 8d161a8f-eaa2-482e-bed6-6b35ec1ee4f3
+      - dda216ba-4246-45d9-b5fe-57e9f34f022a
       X-Runtime:
-      - '0.049854'
+      - '0.059734'
       X-Xss-Protection:
       - 1; mode=block
       Content-Length:
@@ -682,5 +642,5 @@ http_interactions:
         eyJjdXJyZW50IjoxLCJwcmV2aW91cyI6bnVsbCwibmV4dCI6MiwicGVyX3Bh
         Z2UiOjEwLCJwYWdlcyI6MjV9fQ==
     http_version: 
-  recorded_at: Sun, 14 Aug 2016 16:54:23 GMT
+  recorded_at: Sun, 14 Aug 2016 19:00:25 GMT
 recorded_with: VCR 3.0.3

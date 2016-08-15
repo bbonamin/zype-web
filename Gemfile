@@ -41,7 +41,6 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails', '~> 3.5'
   gem 'capybara'
-  gem 'poltergeist'
   gem 'pry'
   gem 'pry-rails'
   gem 'pry-nav'
@@ -49,7 +48,6 @@ group :development, :test do
 end
 
 group :test do
-  gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'
 end

@@ -30,8 +30,9 @@ class Video < ApplicationRecord
     video.save!
   end
 
-  def first_thumbnail_url
-    thumbnails.first.fetch('url')
+  # The 4th thumbnail on each video has a decent enough size without necesarily being huge.
+  def thumbnail
+    thumbnails[3]
   end
 
   def thumbnails

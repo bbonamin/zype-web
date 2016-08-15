@@ -12,12 +12,21 @@ describe 'Visiting a video details page', type: :feature do
         zype_id: '56a7b83169702d2f834bd9b7',
         title: 'Weekend Update 11-21-15, Part 1 of 2 - SNL',
         subscription_required: false,
-        raw_payload: { 'thumbnails' => [{ 'url' => 'https://example.org/1.jpg' }] }
+        raw_payload: {
+          'thumbnails' => [
+            { 'url' => 'https://example.org/1.jpg' },
+            { 'url' => 'https://example.org/2.jpg' },
+            { 'url' => 'https://example.org/3.jpg' },
+            { 'url' => 'https://example.org/4.jpg' }
+          ],
+          'description' => 'Hello World'
+        }
       )
     end
 
-    it 'displays the video title' do
+    it 'displays the video title & description' do
       expect(page.text).to include(video.title)
+      expect(page.text).to include(video.raw_payload.fetch('description'))
     end
 
     it 'displays the video player' do
@@ -31,7 +40,15 @@ describe 'Visiting a video details page', type: :feature do
         zype_id: '56a7b83269702d2f8378d9b7',
         title: 'A Hillary Christmas - SNL',
         subscription_required: true,
-        raw_payload: { 'thumbnails' => [{ 'url' => 'https://example.org/1.jpg' }] }
+        raw_payload: {
+          'thumbnails' => [
+            { 'url' => 'https://example.org/1.jpg' },
+            { 'url' => 'https://example.org/2.jpg' },
+            { 'url' => 'https://example.org/3.jpg' },
+            { 'url' => 'https://example.org/4.jpg' }
+          ],
+          'description' => 'Hello World'
+        }
       )
     end
 

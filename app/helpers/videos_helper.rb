@@ -1,4 +1,5 @@
-#frozen# frozen_string_literal: true
+# frozen_string_literal: true
+# frozen# frozen_string_literal: true
 module VideosHelper
   # Returns a image_tag helper friendly size option
   # e.g. (15x10)

@@ -24,8 +24,8 @@ describe 'Visiting the video list', type: :feature do
 
   it 'displays the video thumbnail' do
     within(first('.video-item')) do
-      thumbnail_url = Video.first.first_thumbnail_url
-      expect(page.find('img')[:src]).to eq(thumbnail_url)
+      url = Video.first.thumbnail.fetch('url')
+      expect(page.find('img')[:src]).to eq(url)
     end
   end
 

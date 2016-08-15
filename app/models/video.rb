@@ -30,7 +30,7 @@ class Video < ApplicationRecord
     video.save!
   end
 
-  # The 4th thumbnail on each video has a decent enough size without necesarily being huge.
+  # The 4th thumbnail on each video has a decent enough size.
   def thumbnail
     thumbnails[3]
   end

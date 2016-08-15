@@ -30,9 +30,5 @@ class VideoGateway
     def all
       @response.fetch('response')
     end
-
-    def each
-      all.each
-    end
   end
 end

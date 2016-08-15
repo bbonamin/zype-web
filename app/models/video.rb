@@ -2,18 +2,6 @@
 class Video < ApplicationRecord
   default_scope -> { order(:title) }
 
-  def self.refresh_all!
-    video_gateway = VideoGateway.new
-    page_number = 1
-    loop do
-      page = video_gateway.fetch(page: page_number)
-      create_or_update_from_page!(page)
-
-      break unless page.current_page <= page.max_pages
-      page_number = page.current_page + 1
-    end
-  end
-
   def self.create_or_update_from_page!(page)
     page.all.each do |video_hash|
       Video.create_or_update_from_hash!(video_hash)

@@ -16,21 +16,23 @@ describe 'Visiting the video list', type: :feature do
     expect(all('.video-item').size).to eq(9)
   end
 
-  it 'displays the video title' do
-    within(first('.video-item')) do
-      expect(page.text).to eq(Video.first.title)
+  context 'for the first video' do
+    it 'displays a title' do
+      within(first('.video-item')) do
+        expect(page.text).to eq(Video.first.title)
+      end
     end
-  end
 
-  it 'displays the video thumbnail' do
-    within(first('.video-item')) do
-      url = Video.first.thumbnail.fetch('url')
-      expect(page.find('img')[:src]).to eq(url)
+    it 'displays a thumbnail' do
+      within(first('.video-item')) do
+        url = Video.first.thumbnail.fetch('url')
+        expect(page.find('img')[:src]).to eq(url)
+      end
     end
-  end
 
-  it 'navigates to the video details when clicked' do
-    first('a.video-item-link').click
-    expect(page.current_url).to eq(video_url(Video.first))
+    it 'navigates to the details when clicked' do
+      first('a.video-item-link').click
+      expect(page.current_url).to eq(video_url(Video.first))
+    end
   end
 end

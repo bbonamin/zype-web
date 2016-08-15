@@ -10,7 +10,7 @@
       Please log in or subscribe to watch this video.
     </p>
     <p>
-      <%= link_to 'Log in', new_session_path %>
+      <%= link_to 'Log in', new_session_path(origin_video_id: @video.id) %>
     </p>
   <% end %>
 <% else %>

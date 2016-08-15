@@ -35,6 +35,6 @@ class Video < ApplicationRecord
   end
 
   def thumbnails
-    raw_payload.fetch('thumbnails') { raise 'Video does not contain thumbnails' }
+    raw_payload.fetch('thumbnails')
   end
 end

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.zype.com/videos?app_key=***REMOVED***&page=2
+    uri: https://api.zype.com/videos?app_key=foobar&page=2
     body:
       encoding: US-ASCII
       string: ''
@@ -193,6 +193,6 @@ http_interactions:
         footage from \"Undercover Boss: Starkiller Base,\" where Kylo Ren (Adam Driver)
         goes undercover as Matt, a radar technician.\n\nGet more SNL on Hulu Plus:
         http://www.hulu.com/saturday-night-live\n\nGet more SNL: http://www.nbc.com/saturday-night-l..."}],"pagination":{"current":2,"previous":1,"next":3,"per_page":10,"pages":25}}'
-    http_version: 
+    http_version:
   recorded_at: Sun, 14 Aug 2016 21:08:37 GMT
 recorded_with: VCR 3.0.3

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.zype.com/videos?app_key=***REMOVED***&page=1
+    uri: https://api.zype.com/videos?app_key=foobar&page=1
     body:
       encoding: US-ASCII
       string: ''
@@ -641,6 +641,6 @@ http_interactions:
         OiBodHRwOi8vd3d3Lm5iYy5jb20vc2F0dS4uLiJ9XSwicGFnaW5hdGlvbiI6
         eyJjdXJyZW50IjoxLCJwcmV2aW91cyI6bnVsbCwibmV4dCI6MiwicGVyX3Bh
         Z2UiOjEwLCJwYWdlcyI6MjV9fQ==
-    http_version: 
+    http_version:
   recorded_at: Sun, 14 Aug 2016 21:20:53 GMT
 recorded_with: VCR 3.0.3

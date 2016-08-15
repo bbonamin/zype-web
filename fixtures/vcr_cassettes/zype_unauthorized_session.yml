@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://login.zype.com/oauth/token/?client_id=***REMOVED***&client_secret=***REMOVED***&grant_type=password&password=asdf09123&username=foo@bar.com
+    uri: https://login.zype.com/oauth/token/?client_id=foobar&client_secret=foobar&grant_type=password&password=asdf09123&username=foo@bar.com
     body:
       encoding: UTF-8
       string: ''
@@ -51,6 +51,6 @@ http_interactions:
       string: '{"error":"invalid_grant","error_description":"The provided authorization
         grant is invalid, expired, revoked, does not match the redirection URI used
         in the authorization request, or was issued to another client."}'
-    http_version: 
+    http_version:
   recorded_at: Mon, 15 Aug 2016 02:29:25 GMT
 recorded_with: VCR 3.0.3

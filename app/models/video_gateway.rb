@@ -3,7 +3,7 @@ class VideoGateway
   include HTTParty
   base_uri 'https://api.zype.com'
 
-  def initialize(app_key: ZYPE_APP_KEY)
+  def initialize(app_key: Rails.application.secrets.zype_app_key)
     @options = { query: { app_key: app_key } }
   end
 

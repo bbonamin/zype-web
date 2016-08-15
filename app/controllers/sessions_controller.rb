@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 class SessionsController < ApplicationController
-  CLIENT_ID = '***REMOVED***'
-  CLIENT_SECRET = '***REMOVED***'
-
   def new
     @origin_video_id = params['origin_video_id']
   end
@@ -44,8 +41,8 @@ class SessionsController < ApplicationController
     URI::HTTPS.build(
       host: 'login.zype.com', path: '/oauth/token/',
       query: {
-        client_id: CLIENT_ID,
-        client_secret: CLIENT_SECRET,
+        client_id: Rails.application.secrets.zype_client_id,
+        client_secret: Rails.application.secrets.zype_client_secret,
         username: params['username'],
         password: params['password'],
         grant_type: 'password'

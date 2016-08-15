@@ -34,6 +34,9 @@ gem 'httparty'
 # Bootstrap CSS framework
 gem 'bootstrap-sass', '~> 3.3.6'
 
+# Pagination
+gem 'kaminari'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails', '~> 3.5'

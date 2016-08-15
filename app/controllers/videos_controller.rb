@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 class VideosController < ApplicationController
   def index
-    @videos = Video.all
+    @videos = Video.all.page(params[:page])
   end
 
   def show

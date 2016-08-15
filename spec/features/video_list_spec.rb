@@ -12,8 +12,8 @@ describe 'Visiting the video list', type: :feature do
     visit videos_url
   end
 
-  it 'displays all videos' do
-    expect(all('.video-item').size).to eq(Video.count)
+  it 'displays the first page of videos' do
+    expect(all('.video-item').size).to eq(9)
   end
 
   it 'displays the video title' do

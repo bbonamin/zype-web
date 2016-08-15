@@ -1,2 +1,12 @@
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "videos";
+@import "sessions";
+
+body {
+  background: black;
+}
+
+.row.flash {
+  margin-top: 1em;
+}

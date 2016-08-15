@@ -1,4 +1,4 @@
-<h1><%= @video.title %></h1>
+<h1 class="page-title"><%= @video.title %></h1>
 
 <% if @video.subscription_required %>
   <% if access_token.present? %>
@@ -10,7 +10,8 @@
       Please log in or subscribe to watch this video.
     </p>
     <p>
-      <%= link_to 'Log in', new_session_path(origin_video_id: @video.id) %>
+      <%= link_to 'Log in', new_session_path(origin_video_id: @video.id) %>  |
+      <%= link_to 'Subscribe', 'https://admin.zype.com/users/sign_up', target: '_blank' %>
     </p>
   <% end %>
 <% else %>

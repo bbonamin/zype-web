@@ -1,13 +1,16 @@
-<h1>Videos#index</h1>
-<section class="videos">
-  <% @videos.each do |video| %>
-    <%= link_to video_path(video), class: 'video-item-link' do %>
-      <div class="video-item">
-        <%= image_tag video.thumbnail.fetch('url'), size: size_for_thumbnail(video.thumbnail) %>
-        <p>
-          <%= video.title %>
-        </p>
+<h1 class="page-title">Zype Videos</h1>
+
+<% @videos.each_slice(3) do |slice| %>
+  <div class="row row-grid">
+    <% slice.each do |video| %>
+      <div class="col-md-4">
+        <%= link_to video_path(video), class: 'video-item-link' do %>
+          <div class="video-item">
+            <%= image_tag video.thumbnail.fetch('url'), class: 'img-responsive' %>
+            <div class="video-title"> <p><%= video.title %></p> </div>
+          </div>
+        <% end %>
       </div>
     <% end %>
-  <% end %>
-</div>
+  </div>
+<% end %>

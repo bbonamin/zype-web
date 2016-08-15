@@ -9,14 +9,15 @@
   </head>
 
   <body>
-    <div class="flash">
-      <% if flash[:notice] %>
-        <div class="notice"><%= flash[:notice] %></div>
-      <% end %>
-      <% if flash[:error] %>
-        <div class="error"><%= flash[:error] %></div>
-      <% end %>
-    </div>
-    <%= yield %>
+    <div class="container">
+      <div class="row flash">
+        <% if flash[:notice] %>
+          <div class="col-md-12 alert alert-success"><%= flash[:notice] %></div>
+        <% end %>
+        <% if flash[:error] %>
+          <div class="col-md-12 alert alert-danger"><%= flash[:error] %></div>
+        <% end %>
+      </div>
+      <%= yield %>
   </body>
 </html>

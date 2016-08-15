@@ -60,5 +60,18 @@ describe 'Visiting a video details page', type: :feature do
       expect(page.current_path).to eq(video_path(video))
       expect(find('.video-player')).to be_present
     end
+
+    it 'shows an error message if incorrect credentials are used to log in' do
+      click_link 'Log in'
+      expect(page.current_path).to eq(new_session_path)
+
+      fill_in 'Username', with: 'foo@bar.com'
+      fill_in 'Password', with: 'asdf09123'
+      VCR.use_cassette 'zype_unauthorized_session' do
+        click_button 'Log in'
+      end
+
+      expect(page.text).to include('Wrong username or password')
+    end
   end
 end
